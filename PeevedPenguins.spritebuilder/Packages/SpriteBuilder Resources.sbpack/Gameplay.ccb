@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>15</integer>
+	<integer>16</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -1219,7 +1219,7 @@
 							</dict>
 							<dict>
 								<key>UUID</key>
-								<integer>14</integer>
+								<integer>15</integer>
 								<key>baseClass</key>
 								<string>CCNode</string>
 								<key>children</key>
@@ -1314,8 +1314,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>116</real>
-											<real>182</real>
+											<real>131</real>
+											<real>180</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
