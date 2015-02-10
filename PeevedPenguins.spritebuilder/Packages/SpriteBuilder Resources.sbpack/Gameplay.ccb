@@ -267,8 +267,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -583,40 +581,82 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>-3.0468902587890625</real>
-											<real>1.63671875</real>
+											<real>-0.453125</real>
+											<real>-0.15234375</real>
 										</array>
 										<array>
-											<real>-1.4375152587890625</real>
-											<real>156.3671875</real>
+											<real>-0.578125</real>
+											<real>133.6328125</real>
+										</array>
+										<array>
+											<real>23.8125</real>
+											<real>173.09765625</real>
 										</array>
 										<array>
 											<real>41.890594482421875</real>
 											<real>175.55078125</real>
 										</array>
 										<array>
-											<real>20.21875</real>
-											<real>2.0234375</real>
+											<real>43.093734741210938</real>
+											<real>131.046875</real>
+										</array>
+										<array>
+											<real>34.757797241210938</real>
+											<real>102.34765625</real>
+										</array>
+										<array>
+											<real>18.91015625</real>
+											<real>109.03125</real>
+										</array>
+										<array>
+											<real>17.21484375</real>
+											<real>2.27734375</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>20.21875</real>
-												<real>2.0234375</real>
+												<real>-0.578125</real>
+												<real>133.6328125</real>
+											</array>
+											<array>
+												<real>-0.453125</real>
+												<real>-0.15234375</real>
+											</array>
+											<array>
+												<real>17.21484375</real>
+												<real>2.27734375</real>
+											</array>
+											<array>
+												<real>18.91015625</real>
+												<real>109.03125</real>
+											</array>
+										</array>
+										<array>
+											<array>
+												<real>18.91015625</real>
+												<real>109.03125</real>
+											</array>
+											<array>
+												<real>34.757797241210938</real>
+												<real>102.34765625</real>
+											</array>
+											<array>
+												<real>43.093734741210938</real>
+												<real>131.046875</real>
 											</array>
 											<array>
 												<real>41.890594482421875</real>
 												<real>175.55078125</real>
 											</array>
 											<array>
-												<real>-1.4375152587890625</real>
-												<real>156.3671875</real>
+												<real>23.8125</real>
+												<real>173.09765625</real>
 											</array>
 											<array>
-												<real>-3.0468902587890625</real>
-												<real>1.63671875</real>
+												<real>-0.578125</real>
+												<real>133.6328125</real>
 											</array>
 										</array>
 									</array>
@@ -1210,7 +1250,7 @@
 									<key>allowsRotation</key>
 									<true/>
 									<key>bodyShape</key>
-									<integer>0</integer>
+									<integer>1</integer>
 									<key>collisionCategories</key>
 									<array/>
 									<key>collisionMask</key>
@@ -1222,7 +1262,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -1233,40 +1273,9 @@
 											<real>0.0</real>
 											<real>0.0</real>
 										</array>
-										<array>
-											<real>0.0</real>
-											<real>32</real>
-										</array>
-										<array>
-											<real>32</real>
-											<real>32</real>
-										</array>
-										<array>
-											<real>32</real>
-											<real>0.0</real>
-										</array>
 									</array>
 									<key>polygons</key>
-									<array>
-										<array>
-											<array>
-												<real>32</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>32</real>
-												<real>32</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>32</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-										</array>
-									</array>
+									<array/>
 								</dict>
 								<key>properties</key>
 								<array>
@@ -1330,6 +1339,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
