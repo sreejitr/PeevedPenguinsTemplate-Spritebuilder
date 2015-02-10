@@ -2,9 +2,9 @@
 //  Gameplay.m
 //  PeevedPenguins
 //
-//  Created by Sreejita Ray on 2/9/15.
+//  Created by Sreejita Ray on 2/10/15.
 //  Copyright (c) 2015 Apportable. All rights reserved.
-//
+//new
 #import "Gameplay.h"
 #import "CCPhysics+ObjectiveChipmunk.h"
 #import "Penguin.h"
@@ -31,7 +31,7 @@ static const float MIN_SPEED = 5.f;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
     // visualize physics bodies & joints
-//    _physicsNode.debugDraw = TRUE;
+    //    _physicsNode.debugDraw = TRUE;
     // nothing shall collide with our invisible nodes
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
@@ -141,26 +141,26 @@ static const float MIN_SPEED = 5.f;
 
 - (void)update:(CCTime)delta
 {
-     if (_currentPenguin.launched) {
-         // if speed is below minimum speed, assume this attempt is over
-         if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
-             [self nextAttempt];
-             return;
-         }
-    
-         int xMin = _currentPenguin.boundingBox.origin.x;
-    
-         if (xMin < self.boundingBox.origin.x) {
-             [self nextAttempt];
-             return;
-         }
-    
-         int xMax = xMin + _currentPenguin.boundingBox.size.width;
-    
-         if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
-             [self nextAttempt];
-             return;
-         }
+    if (_currentPenguin.launched) {
+        // if speed is below minimum speed, assume this attempt is over
+        if (ccpLength(_currentPenguin.physicsBody.velocity) < MIN_SPEED){
+            [self nextAttempt];
+            return;
+        }
+        
+        int xMin = _currentPenguin.boundingBox.origin.x;
+        
+        if (xMin < self.boundingBox.origin.x) {
+            [self nextAttempt];
+            return;
+        }
+        
+        int xMax = xMin + _currentPenguin.boundingBox.size.width;
+        
+        if (xMax > (self.boundingBox.origin.x + self.boundingBox.size.width)) {
+            [self nextAttempt];
+            return;
+        }
     }
 }
 
@@ -172,3 +172,4 @@ static const float MIN_SPEED = 5.f;
     [_contentNode runAction:actionMoveTo];
 }
 @end
+
