@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>16</integer>
+	<integer>19</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -33,7 +33,7 @@
 	<array>
 		<dict>
 			<key>UUID</key>
-			<integer>11</integer>
+			<integer>16</integer>
 			<key>baseClass</key>
 			<string>CCPhysicsPivotJoint</string>
 			<key>children</key>
@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>226.88800048828125</real>
-						<real>101.51000213623047</real>
+						<real>227.99996948242188</real>
+						<real>103</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>7.88800048828125</real>
-						<real>5.5100002288818359</real>
+						<real>8.999969482421875</real>
+						<real>7</real>
 					</array>
 				</dict>
 				<dict>
@@ -139,12 +139,10 @@
 					</array>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
-			<integer>13</integer>
+			<integer>18</integer>
 			<key>baseClass</key>
 			<string>CCPhysicsSpringJoint</string>
 			<key>children</key>
@@ -269,6 +267,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1098,7 +1098,7 @@
 									<key>allowsRotation</key>
 									<true/>
 									<key>bodyShape</key>
-									<integer>0</integer>
+									<integer>1</integer>
 									<key>collisionCategories</key>
 									<array/>
 									<key>collisionMask</key>
@@ -1121,40 +1121,9 @@
 											<real>0.0</real>
 											<real>0.0</real>
 										</array>
-										<array>
-											<real>0.0</real>
-											<real>32</real>
-										</array>
-										<array>
-											<real>32</real>
-											<real>32</real>
-										</array>
-										<array>
-											<real>32</real>
-											<real>0.0</real>
-										</array>
 									</array>
 									<key>polygons</key>
-									<array>
-										<array>
-											<array>
-												<real>32</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>32</real>
-												<real>32</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>32</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-										</array>
-									</array>
+									<array/>
 								</dict>
 								<key>properties</key>
 								<array>
