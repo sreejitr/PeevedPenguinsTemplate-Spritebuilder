@@ -3710,7 +3710,7 @@
 						<key>value</key>
 						<array>
 							<real>1</real>
-							<real>0.81136739253997803</real>
+							<real>0.87618452310562134</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -3831,6 +3831,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
